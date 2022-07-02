@@ -1,0 +1,40 @@
+.expenses-item {
+  display: flex;
+  background-color: #eeeeee;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  color: #252525;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.expenses-name {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.expenses-price {
+  background-color: #252525;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  border-radius: 5px;
+  color: #eeeeee;
+  border: 2px solid #252525;
+}
+
+.No-Content {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+  font-weight: 700;
+}

@@ -1,0 +1,10 @@
+.list {
+  list-style: none;
+}
+
+.No-content {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
